@@ -12,6 +12,8 @@
   width: 20%;
   text-align: center;
   font-size: 1.5rem;
+  text-decoration: none;
+  color:white;
 }
 
 .search-bar{
@@ -33,6 +35,8 @@ input::placeholder{
   font-weight: bolder;
   font-size: 1.5rem;
   text-align: center;
+  text-decoration: none;
+  color:white;
 }
 
 .nav-bar-wrapper {
@@ -42,4 +46,22 @@ input::placeholder{
   background-color: #4b1b78;
   color: white;
   font-weight: bold;
+} 
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.img img {
+  width: 350px;
+  height: 350px;
+}
+
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
 }
